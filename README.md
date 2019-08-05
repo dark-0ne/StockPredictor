@@ -19,5 +19,13 @@ Stock predicted is EURUSD (Euro to U.S. Dollar ratio). Along daily closing price
   * Momentum
 * Fourier Transforms for trend detection
 ### Model
-2 LSTM layers with 2 dense fully-connected layer is used. The results shown below are acheived with minimal hyperparameter tuning and short training time.
+2 LSTM layers with 2 dense fully-connected layers are used.
+![Model screenshot](/screenshots/model.png)
+### Results
+The results shown below are acheived with minimal hyperparameter tuning and short training time.
 For better results you can try tweaking the parameters and letting the model train longer.
+<br>![Train Performance Screenshot](/screenshots/train.png)![Validation Performance Screenshot](/screenshots/val.png)
+<br>![Train and loss error screenshot](/screenshots/loss.png)
+
+#### Note
+This work is mainly based on [this article](https://towardsdatascience.com/aifortrading-2edd6fac689d). Due to the fact that the original author refrained from providing the source code for the work claimed done, in this project I tried to implement some of the methods mentioned by him to best of my understanding. Some major parts mentioned by him (such as ARIMA - NLP analysis - GAN and RL techniques - ...) are completely left out of this project as of now but may be added in near future.
