@@ -27,5 +27,6 @@ For better results you can try tweaking the parameters and letting the model tra
 <br>![Train Performance Screenshot](/screenshots/train.png)![Validation Performance Screenshot](/screenshots/val.png)
 <br>![Train and loss error screenshot](/screenshots/loss.png)
 
+
 #### Note
-This work is mainly based on [this article](https://towardsdatascience.com/aifortrading-2edd6fac689d). Due to the fact that the original author refrained from providing the source code for the work claimed done, in this project I tried to implement some of the methods mentioned by him to best of my understanding. Some major parts mentioned by him (such as ARIMA - NLP analysis - GAN and RL techniques - ...) are completely left out of this project as of now but may be added in near future.
+This work is mainly based on [this article](https://towardsdatascience.com/aifortrading-2edd6fac689d). Due to the fact that the original author refrained from providing the source code for the work claimed done, in this project I tried to implement some of the methods mentioned by him to best of my understanding. Some major parts mentioned by him (such as ARIMA - NLP analysis - GAN and RL techniques - ...) are completely left out of this project as of now but may be added in near future. <br>It should be mentioned that the stock market prediction is a highly complex and volatile matter and accurate prediction requires much more knowledge than simple stock prices and indices. Therefore the results shown above could be highly improved by adding mentioned methods to the existing model.
